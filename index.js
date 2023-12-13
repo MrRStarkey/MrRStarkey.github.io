@@ -19,14 +19,14 @@ var pTagArray = [];
 var textArray = [
     "sudo apt-get install developer     ",
     "                                   ", 
-    "loading image files................",
-    "loading script files...............",
-    "loading static content.............",
-    "loading style sheets...............",
-    "loading user preferences...........",
-    "generating user experience.........",
-    "creating document object model.....",
-    "authenticating user profile........"
+    "loading image files ................",
+    "loading script files ...............",
+    "loading static content .............",
+    "loading style sheets ...............",
+    "loading user preferences ...........",
+    "generating user experience .........",
+    "creating document object model .....",
+    "authenticating user profile ........"
 ];
 
 //typing speed
