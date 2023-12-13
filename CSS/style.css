@@ -149,10 +149,21 @@ p {
   opacity: 1;
 }
 
-.project-tile {
+.projects-container {
+  border-radius: 8px;
+  background-color: #333;
+  box-shadow: 5px 5px 10px white;
   display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-height: 90%;
+  padding: 2%;
+}
+
+.project-tile {
+  display: flexbox;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   width: 30%;
   max-height: 100%;
   margin: auto;
@@ -160,23 +171,23 @@ p {
   color: white;
 }
 .project-tile img {
-  width: 80%;
+  align-self: center;
+  width: 70%;
   height: auto;
 }
 .project-tile h2 {
-  height: 2rem;
-  font-size: medium;
+  height: 4rem;
+  font-size: 1rem;
   text-align: center;
+  align-self: center;
 }
 
-.projects-container {
-  border-radius: 8px;
-  background-color: #333;
-  box-shadow: 5px 5px 10px white;
+.project-tile-item {
   display: flex;
-  flex-direction: row;
-  max-height: 90%;
-  padding: 2%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .sidebar {
